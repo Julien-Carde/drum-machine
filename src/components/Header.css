@@ -1,0 +1,26 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px;
+  background: #ffffff;
+}
+
+.header-title {
+  color: rgb(207, 118, 69);
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.docs-link {
+  background: none;
+  border: 1px solid rgb(207, 118, 69);
+  color: rgb(207, 118, 69);
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.docs-link:hover {
+  background: rgba(207, 118, 69, 0.1);
+} 

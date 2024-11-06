@@ -1,0 +1,105 @@
+.documentation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #333;
+  line-height: 1.6;
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.documentation h1 {
+  color: rgb(207, 118, 69);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.documentation h2 {
+  color: rgb(207, 118, 69);
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(207, 118, 69, 0.2);
+}
+
+.documentation h3 {
+  color: #444;
+  font-size: 1.3rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.documentation p {
+  margin: 1rem 0;
+}
+
+.documentation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.documentation li {
+  margin: 0.8rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.documentation li:before {
+  content: "•";
+  color: rgb(207, 118, 69);
+  position: absolute;
+  left: 0;
+}
+
+.preset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.preset-card {
+  background: rgba(207, 118, 69, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(207, 118, 69, 0.2);
+}
+
+.preset-card h3 {
+  color: rgb(207, 118, 69);
+  margin-top: 0;
+}
+
+.documentation strong {
+  color: #555;
+}
+
+.documentation footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(207, 118, 69, 0.2);
+  color: rgb(207, 118, 69);
+}
+
+.documentation a {
+  color: rgb(207, 118, 69);
+  text-decoration: none;
+}
+
+.documentation a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .documentation {
+    padding: 20px 15px;
+  }
+  
+  .documentation h1 {
+    font-size: 2rem;
+  }
+  
+  .preset-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,25 @@
+.mobile-warning {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  z-index: 9999;
+  padding: 2rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .mobile-warning {
+    display: flex;
+  }
+  
+  .app {
+    display: none;
+  }
+}

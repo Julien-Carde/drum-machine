@@ -1,0 +1,13 @@
+/* Add or update this in your index.css or App.css */
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+}
+
+/* Override any specific font-family declarations */
+button, input, select, textarea {
+  font-family: Helvetica, Arial, sans-serif;
+}
